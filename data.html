@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Table</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="validation.html">Registration</a></li>
+        <li><a href="data.html" class="active">Data Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Data Table</h2>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search by name, city...">
+      <button id="sortNameBtn">Sort by Name</button>
+      <button id="sortAgeBtn">Sort by Age</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Using JS -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="js/data.js"></script>
+</body>
+</html>
